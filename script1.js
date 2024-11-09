@@ -1,0 +1,3 @@
+function auto(){
+    var autobtn=
+}

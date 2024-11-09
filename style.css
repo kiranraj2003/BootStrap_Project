@@ -1,0 +1,87 @@
+.slides {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.carousel_img {
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+}
+
+#carouselbutton {
+    margin-top: 57px;
+}
+
+.cardimg {
+    width: 200px;
+    height: auto;
+}
+
+.navtext1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+.navtext1:hover {
+    color: blue;
+    box-sizing: border-box;
+    border-bottom: 3px solid grey;
+    transform: scale(1.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    transition: transform .5s;
+    display: flex;
+}
+
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+
+}
+
+.martop {
+    margin-top: 70px;
+}
+
+.round {
+    border-radius: 30px;
+}
+
+.imgfont {
+    font-size: 30px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.sellerbg{
+    background-image: url("./images/Banner_1.png");
+    background-size: contain;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    
+}
+.sellerform{
+    position: absolute;
+    margin-top: 100px;
+    background-color: white;
+    padding:30px;
+    
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top position-absolute  navbar-light bg-light">
+            <div class="container">
+                <a href="#" class="navbar-brand ms-auto navtext1 ">
+                    <h4 class="text-dark">MK-Store</h4>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item "><a href="index.html" class="nav-link navtext1 active">Home</a></li>
+                        <li class="nav-item"><a href="mobiles.html" class="nav-link navtext1 ">Mobiles</a></li>
+                        <li class="nav-item"><a href="accessories.html" class="nav-link  navtext1 ">Accessories</a></li>
+                        <li class="nav-item"><a href="seller.html" class="nav-link navtext1 ">Become a Seller</a></li>
+                        <li class="nav-item"><a href="#Cart" class="nav-link navtext1 "><i class="bi bi-cart-check"></i>
+                                Cart</a></li>
+                        <li class="nav-item"><a href="#customer" class="nav-link navtext1 ">Customer Support</a></li>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bi bi-person-circle"></i> Login
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="userprofile.html"> User Profile</a></li>
+                                <li><a class="dropdown-item" href="login.html">login</a></li>
+                                <li><a class="dropdown-item" href="signin.html">signin</a></li>
+                                <li><a class="dropdown-item" href="#">Admin</a></li>
+                                <li><a class="dropdown-item" href="#">About</a></li>
+                                <li><a class="dropdown-item" href="#">Logout
+                                    <i class="bi bi-box-arrow-right ms-5"></i></a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+ 
+    <div class="container-fluid ">
+        
+       
+ 
+    </div>
+
+    <div class="container-fluid">
+        <div class="sellerbg ">
+            <div class="sellerform offset-md-1 col-md-4">
+                <form action="" class="">
+                    <h2>Seller</h2>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" name="name" class="form-control" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="number" class="form-label">Mobile</label>
+                        <input type="number" name="email" class="form-control" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" name="password" class="form-control" placeholder="Enter your password">
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">Login </button>
+                        
+                    </div>
+                  
+                    <div class="mt-3 "> 
+                         <p >Don't have an account? <a href="signin.html">Sign up</a></p></div>
+                    
+                    
+                </form>
+            </div>
+    
+        </div>
+    </div>
+    <script href="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
