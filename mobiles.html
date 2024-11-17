@@ -14,12 +14,19 @@
             width: 200px;
             height: 200px;
         }
+        .card_img{
+            height: 210px;
+           
+        }
+        .mar{
+            margin-top: 10vh;
+        }
     </style>
 </head>
 
 <body>
     <!-- heading begins-->
-    <header>
+    <header class="my-5">
         <nav class="navbar navbar-expand-lg fixed-top position-absolute  navbar-light bg-light">
             <div class="container">
                 <a href="#" class="navbar-brand ms-auto navtext1 ">
@@ -30,15 +37,17 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="mynav">
+                <div class="collapse navbar-collapse " id="mynav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item "><a href="index.html" class="nav-link navtext1 active">Home</a></li>
+                        <li class="nav-item"><a href="index.html" class="nav-link navtext1 active">Home</a></li>
                         <li class="nav-item"><a href="mobiles.html" class="nav-link navtext1 ">Mobiles</a></li>
                         <li class="nav-item"><a href="accessories.html" class="nav-link  navtext1 ">Accessories</a></li>
                         <li class="nav-item"><a href="seller.html" class="nav-link navtext1 ">Become a Seller</a></li>
-                        <li class="nav-item"><a href="#Cart" class="nav-link navtext1 "><i class="bi bi-cart-check"></i>
+                        <li class="nav-item"><a href="cart.html" class="nav-link navtext1 "><i class="bi bi-cart-check"></i>
                                 Cart</a></li>
-                        <li class="nav-item"><a href="#customer" class="nav-link navtext1 ">Customer Support</a></li>
+                        <li class="nav-item"><a href="customer.html" class="nav-link navtext1 ">Customer Support</a></li>
+
+
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -52,6 +61,7 @@
                                 <li><a class="dropdown-item" href="#">About</a></li>
                                 <li><a class="dropdown-item" href="">Logout
                                         <i class="bi bi-box-arrow-right ms-5"></i></a></li>
+                            </ul>
                         </div>
                     </ul>
                 </div>
@@ -61,12 +71,10 @@
 
     <!-- heading ends-->
 
-    <!-- carousel begins -->
-    <br><br>
-    <!-- carousel ends  -->
+ 
 
     <!-- card begins  -->
-    <div class="container martop text-center">
+    <div class="container text-center mar">
 
         <!-- first row begins -->
 
@@ -76,13 +84,15 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/samsung-galaxy-z-flip6.jpg" class="card-img-top img-fluid"
+                            <img src="./images/samsung-galaxy-z-flip6.jpg" class="card-img-top img-fluid card_img"
                                 alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Samsung Z flip6</h6>
                             <p class="card-text">
-                                <span class="badge text-bg-success">4.4<i class="bi bi-star-fill"></i></span>(4521)
+                                <span class="badge text-bg-success">4.4<i class="bi bi-star-fill"></i></span>(4521) 
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
+                                
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -92,13 +102,14 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/samsung-galaxy-z-fold6.jpg" class="card-img-top img-fluid" alt="ipad"
+                            <img src="./images/samsung-galaxy-z-fold6.jpg" class="card-img-top img-fluid card_img" alt="ipad"
                                 width="150px" height="50px">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Samsung Z Fold6</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -108,12 +119,14 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/samsung-galaxy-a06-1.jpg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/samsung-galaxy-a06-1.jpg" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Samsung Galaxy A06</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
+
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -123,12 +136,13 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/samsung-galaxy-a35.jpg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/samsung-galaxy-a35.jpg" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Samsung Galaxy A35</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -138,12 +152,13 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/samsung-galaxy-f14-4g.jpg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/samsung-galaxy-f14-4g.jpg" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Samsung Galaxy f14</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -160,12 +175,13 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/samsung-galaxy-m55.jpg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/samsung-galaxy-m55.jpg" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Samsung Galaxy m55</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.4<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -175,13 +191,14 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/samsung-galaxy-m35-.jpg" class="card-img-top img-fluid" alt="ipad"
+                            <img src="./images/samsung-galaxy-m35-.jpg" class="card-img-top img-fluid card_img" alt="ipad"
                                 width="150px" height="50px">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Samsung Galaxy m35</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -191,12 +208,13 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/samsung-galaxy-f55.jpg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/samsung-galaxy-f55.jpg" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Samsung Galaxy f55</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -206,12 +224,13 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/samsungs23.webp" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/samsungs23.webp" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Samsung s23</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -221,12 +240,13 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/samsung-galaxy-f14-4g.jpg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/samsung-galaxy-f14-4g.jpg" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Samsung Galaxy f14</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -248,12 +268,13 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/iphone15.jpeg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/iphone15.jpeg" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">iphone 15</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.4<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -263,13 +284,14 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/iphon15pro.jpeg" class="card-img-top img-fluid" alt="ipad"
+                            <img src="./images/iphon15pro.jpeg" class="card-img-top img-fluid card_img" alt="ipad"
                                 width="150px" height="50px">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Iphon15pro</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -279,12 +301,13 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/ipad.jpeg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/ipad.jpeg" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Ipad</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -294,12 +317,13 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/apple-ipad-mini-2021.jpg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/apple-ipad-mini-2021.jpg" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Ipad mini 2021</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -309,13 +333,14 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/apple-iphone-16-plus-10.jpg" class="card-img-top img-fluid"
+                            <img src="./images/apple-iphone-16-plus-10.jpg" class="card-img-top img-fluid card_img"
                                 alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Iphone 16 plus</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -332,13 +357,14 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/apple-iphone-16-pro-max-10.jpg" class="card-img-top img-fluid"
+                            <img src="./images/apple-iphone-16-pro-max-10.jpg" class="card-img-top img-fluid card_img"
                                 alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Iphone 16 pro max</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.4<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -348,13 +374,14 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/apple-iphone-se-2022.jpg" class="card-img-top img-fluid" alt="ipad"
+                            <img src="./images/apple-iphone-se-2022.jpg" class="card-img-top img-fluid card_img" alt="ipad"
                                 width="150px" height="50px">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Iphoner SE-2022</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -364,13 +391,14 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/apple-iphone-11-pro-max-.jpg" class="card-img-top img-fluid"
+                            <img src="./images/apple-iphone-11-pro-max-.jpg" class="card-img-top img-fluid card_img"
                                 alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Iphone 11 pro max</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -380,13 +408,14 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/apple-iphone-8-plus-new.jpg" class="card-img-top img-fluid"
+                            <img src="./images/apple-iphone-8-plus-new.jpg" class="card-img-top img-fluid card_img"
                                 alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Iphone 8 plus</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -396,12 +425,13 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/apple-iphone-x.jpg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/apple-iphone-x.jpg" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Iphone X</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -425,12 +455,13 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/oneplus-11.jpg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/oneplus-11.jpg" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Oneplus 11</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.4<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -440,13 +471,14 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/samsungs23.webp" class="card-img-top img-fluid" alt="ipad"
+                            <img src="./images/samsungs23.webp" class="card-img-top img-fluid card_img" alt="ipad"
                                 width="150px" height="50px">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Samsung s23</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -456,12 +488,13 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/google-pixel-9-pro-.jpg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/google-pixel-9-pro-.jpg" class="card-img-top img-fluid card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Google Pixel 9</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -471,13 +504,14 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/samsung-galaxy-tab-s6-lite-2024.jpg" class="card-img-top img-fluid"
+                            <img src="./images/samsung-galaxy-tab-s6-lite-2024.jpg" class="card-img-top img-fluid card_img"
                                 alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Samsung Tab S6</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
                             <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
@@ -487,14 +521,15 @@
                 <div class="col">
                     <div class="card cardimg">
                         <div class="card-header">
-                            <img src="./images/oppo-f27.jpg" class="card-img-top img-fluid" alt="ipad">
+                            <img src="./images/oppo-f27.jpg" class="card-img-top img-fluid card_img card_img" alt="ipad">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Oppo F27</h6>
                             <p class="card-text">
                                 <span class="badge text-bg-success">4.5<i class="bi bi-star-fill"></i></span>(4521)
+                                <br><div class="mt-1"><span><i class="bi bi-currency-rupee">30,000</i></span></div>
                             </p>
-                            <a href="#" class="btn btn-sFuccess">Add to Cart</a>
+                            <a href="#" class="btn btn-success">Add to Cart</a>
                         </div>
                     </div>
                 </div>
